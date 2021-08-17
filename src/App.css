@@ -1,0 +1,17 @@
+.paginationBttns{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+li{
+  margin: 8px;
+  padding: 8px;
+  border:1px solid black;
+}
+.paginationDisabled{
+  background-color: grey;
+}
+.paginationActive{
+  background-color: green;
+  color: white;
+}
